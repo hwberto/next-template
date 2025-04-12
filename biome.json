@@ -23,6 +23,9 @@
 			"style": {
 				"useSelfClosingElements": "off",
 				"noNonNullAssertion": "off"
+			},
+			"correctness": {
+				"noUnknownProperty": "off"
 			}
 		}
 	},
