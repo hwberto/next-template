@@ -25,7 +25,8 @@
 				"noNonNullAssertion": "off"
 			},
 			"correctness": {
-				"noUnknownProperty": "off"
+				"noUnknownProperty": "off",
+				"useExhaustiveDependencies": "off"
 			}
 		}
 	},
