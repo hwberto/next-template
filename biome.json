@@ -20,13 +20,17 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"a11y": {
+				"noSvgWithoutTitle": "off"
+			},
 			"style": {
-				"useSelfClosingElements": "off",
 				"noNonNullAssertion": "off"
 			},
 			"correctness": {
-				"noUnknownProperty": "off",
 				"useExhaustiveDependencies": "off"
+			},
+			"suspicious": {
+				"noExplicitAny": "off"
 			}
 		}
 	},
